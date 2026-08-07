@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%d.%02d\n" $((NUM / 100)) $((NUM % 100))
