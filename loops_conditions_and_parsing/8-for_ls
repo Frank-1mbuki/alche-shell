@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#7. For ls
+
+for file in *
+do
+	echo "${file#*-}"
+done
